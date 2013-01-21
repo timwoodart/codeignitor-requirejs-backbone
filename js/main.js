@@ -1,15 +1,23 @@
 'use strict';
 
+	/** 
+	  * RequireJS config and shim
+	  * @see http://requirejs.org/docs/api.html#config
+	  *
+	  * Also a good read to explain RequireJS dependency management
+	  * @link http://aaronhardy.com/javascript/javascript-architecture-requirejs-dependency-management/
+      *
+	  */
+
 requirejs.
-	// http://requirejs.org/docs/api.html#config
 	config({
 		// enforceDefine to catch load failures in IE
-		// http://requirejs.org/docs/api.html#ieloadfail
-		// http://requirejs.org/docs/api.html#config-enforceDefine
+		// @see http://requirejs.org/docs/api.html#ieloadfail
+		// @see http://requirejs.org/docs/api.html#config-enforceDefine
 		// See below for load require() | define() comment with this option
     	enforceDefine: true,
 
-    	// http://requirejs.org/docs/api.html#pathsfallbacks
+    	// @see http://requirejs.org/docs/api.html#pathsfallbacks
 		// If the CDN location fails, load from local location
 
 		// @TODO - work with local copies in development, and uncomment the CDN hosted when you go live
@@ -24,7 +32,7 @@ requirejs.
 					'libs/underscore'],
 		'hogan': 'libs/hogan'
 	},
-	// http://requirejs.org/docs/api.html#config-shim
+	// @see http://requirejs.org/docs/api.html#config-shim
 	shim: {
 		'jquery': {
 			exports: '$'
@@ -46,7 +54,7 @@ requirejs.
 	}
 });
 
- // NOTE: If you do set enforceDefine: true, and you use data-main="" to load your main JS module,
+ // DEV NOTE: If you do set enforceDefine: true, and you use data-main="" to load your main JS module,
  // then that main JS module must call define() instead of require() to load the code it needs.
  // The main JS module can still call require/requirejs to set config values,
  // but for loading modules it should use define().
