@@ -22,6 +22,9 @@
 		<? endforeach; ?>
 	<? endif; ?>
 
+    <? // RequireJS to handle js dependencies and client-side scripting ?>
+    <script data-main="js/main" src="js/libs/require.js"></script>
+
 </head>
 
 <body>

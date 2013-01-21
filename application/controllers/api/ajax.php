@@ -38,6 +38,9 @@ class Ajax extends MY_Controller
 				// Query and/or process here
 				//$this->load->model('example_model');
 				//$data = $this->example_model->get($id);
+
+				// just example data to show we are making connection. delete
+				$data = array('success' => 'true');
 			}
 
 			// Error fallback
