@@ -28,16 +28,16 @@ class General extends MY_Controller
 		));
 
 		// Do something here...
-		// $foo = 'bar';
+		$foo = 'bar';
 
 		// Assign your data to an array
 		$data = array(
-			//'baz' => $foo
+			'foo' => $foo
 		);
 
 		// relative path to your views file.php eg: index.php or custom/index.php
 		// pass your data to the view
-		$this->load->view('index', $data);
+		$this->load->view('/general/index', $data);
 	}
 
 	/**

@@ -9,7 +9,7 @@ function ($){
 			init: function(data){
 				var success = '<b>' + data.success + '</b>';
 				this.nextStep(
-					'And this created next... and lets show you the XHR request. Is it successful? '
+					'And this is the Ajax API call. Was it successful? '
 					+ success
 				);
 			},

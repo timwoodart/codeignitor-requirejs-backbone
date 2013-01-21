@@ -10,7 +10,7 @@ function ($ ,jqueryUI, Home){
 	var Global = {
 		init: function(){
 			$(function(){
-				var newh3 = $('<h3/>').text('This is created first! Now drag me around...').css({cursor:'pointer',display:'inline-block'}).draggable();
+				var newh3 = $('<h3/>').text('RequireJS Exmaple. Now drag me around...').css({cursor:'pointer',display:'inline-block'}).draggable();
 				$('body').append(newh3);
 
 				// Test API call

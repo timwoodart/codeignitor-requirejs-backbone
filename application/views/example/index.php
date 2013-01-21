@@ -1,3 +1,3 @@
 <div>
-	<p>This is the artwork view</p>
+	<p>This is an example view</p>
 </div>
