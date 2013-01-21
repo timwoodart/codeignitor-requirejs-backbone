@@ -38,9 +38,14 @@
 |
 */
 
-$route['default_controller'] = "welcome";
+$route['default_controller'] = 'general';
 $route['404_override'] = '';
 
+// Custom Routes
+$route['/'] = 'general/index';
+
+// Catch all default for direct access to controllers
+$route['(:any)/(:any)'] = '$1/$2';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
