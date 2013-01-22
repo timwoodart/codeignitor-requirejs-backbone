@@ -59,6 +59,6 @@ requirejs.
  // The main JS module can still call require/requirejs to set config values,
  // but for loading modules it should use define().
 
-define(['global'], function(Global) {
-	Global.init();
+define(['module/Example'], function(Example) {
+	Example.init();
 });
