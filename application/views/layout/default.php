@@ -3,7 +3,7 @@
 <div class="container">
 
 	<h1>Your New Site Boilerplate</h1>
-	<h2>CodeIgniter with Modernizr | Normalize | RequireJS</h2>
+	<h2>CodeIgniter loading RequireJS and Backbone</h2>
 
 	{content}
 

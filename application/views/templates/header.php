@@ -24,7 +24,7 @@
 
     <? // RequireJS to handle js dependencies and client-side scripting ?>
     <script data-main="js/main" src="<?=base_url();?>js/libs/require.js"></script>
-
+    <link rel="icon" href="favicon.ico">
 </head>
 
 <body>
