@@ -28,13 +28,13 @@ class MY_Controller extends CI_Controller
 
 		// Load global css here.
 		$this->load_css(array(
-			'/css/normalize.css',
-			'/css/global.css'
+			'css/normalize.css',
+			'css/global.css'
 		));
 
 		// Load global js here.
 		$this->load_js(array(
-			'/js/libs/modernizr.js'
+			'js/libs/modernizr.js'
 		));
 	}
 
