@@ -20,7 +20,7 @@ class General extends MY_Controller
 		$this->set_meta_description('Your Custom Meta Description.');
 		$this->load_css(array(
 			// relative path to your page specific css eg: /css/example.css
-			'/css/test.css'
+			'css/test.css'
 		));
 		$this->load_js(array(
 			// relative path to your page specific javascript eg: /js/example.js
@@ -50,7 +50,7 @@ class General extends MY_Controller
 	*/
 	public function highlight(){
 		$this->set_page_title('Example of another page');
-		$this->set_meta_description('Example of another page Meta Description.');		
+		$this->set_meta_description('Example of another page Meta Description.');
 
 		// Set another layout
 		$this->layout = 'highlight';

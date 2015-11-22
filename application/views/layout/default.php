@@ -1,4 +1,4 @@
-<?=$this->load->view('templates/header');?>
+<? $this->load->view('templates/header');?>
 
 <div class="container">
 
@@ -9,4 +9,4 @@
 
 </div>
 
-<?=$this->load->view('templates/footer');?>
+<? $this->load->view('templates/footer');?>
