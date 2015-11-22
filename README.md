@@ -6,7 +6,7 @@ There are several ways to get a RequireJS/Backbone App up and running, but I nee
 
 ## Whats Included?
 ### Frameworks, libraries and some standard html/css templates
-* [CodeIgniter Version 2.1.2](ellislab.com/codeigniter)
+* [CodeIgniter Version 3.0.3](ellislab.com/codeigniter)
 * [HTML5 Boilerplate](html5boilerplate.com/)
 * [Normalize](http://necolas.github.com/normalize.css/)
 * [Modernizr](modernizr.com/)
@@ -18,7 +18,7 @@ There are several ways to get a RequireJS/Backbone App up and running, but I nee
 * [Hogan](twitter.github.com/hogan.js/)
 
 ### RequireJS configured to load our libraries from a CDN with a fallback to local copies of the libs.
-@see `js/main.js` for this is configured. Note that the CDN is commented out for development. Uncomment when you go live. 
+@see `js/main.js` for this is configured. Note that the CDN is commented out for development. Uncomment when you go live.
 
 ### Sample Ajax API Controller
 @see `application/controllers/api/ajax` and `application/config/routes/` for how this is wired up.
@@ -38,7 +38,7 @@ If you are not already aware of the CodeIgniter basic setup, you will need to ed
 Require and Backbone are up and running with very basic settings. There are a quite a few tutorials on the web for taking Backbone to the next level. I found this article to be quite informative - [JavaScript Architecture: RequireJS Dependency Management](http://aaronhardy.com/javascript/javascript-architecture-requirejs-dependency-management/). I used the basic logic in setting up the structure to this client-side app. Refer to the `js` folder and implement your functionality there.
 
 ## Digging In
-You can look through the commits to see how we ended up to this state, but just to note a few of the highlights and 
+You can look through the commits to see how we ended up to this state, but just to note a few of the highlights and
 
 ### CI Enable Hooks to load custom layouts
 Very helpful for being able to have multiple layouts for pages, widgets, popups, ect...
