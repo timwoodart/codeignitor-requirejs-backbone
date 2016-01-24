@@ -15,7 +15,7 @@
 			<link rel="stylesheet" type="text/css" href="<?=base_url() . $css;?>" />
 		<? endforeach; ?>
 	<? endif; ?>
- 
+
 	<? if (!empty($site_js)) : ?>
 		<? foreach ($site_js as $js) : ?>
 		    <script type="text/javascript" src="<?=base_url() . $js;?>"></script>
@@ -23,7 +23,7 @@
 	<? endif; ?>
 
     <? // RequireJS to handle js dependencies and client-side scripting ?>
-    <script data-main="js/main" src="<?=base_url();?>js/libs/require.js"></script>
+    <script data-main="/js/main" src="<?=base_url();?>js/libs/require.js"></script>
     <link rel="icon" href="favicon.ico">
 </head>
 
